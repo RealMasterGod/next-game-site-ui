@@ -11,7 +11,7 @@ const FifthSectionFifth = () => {
           </div>
           <div className="absolute flex items-center justify-center w-fit right-0 top-0">
           <h1 className="absolute w-1/2 pb-[70px] z-50 text-white text-[50px] leading-[58px] text-center">Shop</h1>
-            <Image src="/polygonShop.png " alt="" width={277} height={240} />
+            <Image src="/polygonShop.png" alt="" width={277} height={240} />
           </div>
           <div className="absolute flex items-center justify-center w-fit left-0 bottom-0">
           <h1 className="absolute w-[90%] pt-[70px] z-50 text-white text-[50px] leading-[58px] text-center">NFT & Market Place Queries</h1>
