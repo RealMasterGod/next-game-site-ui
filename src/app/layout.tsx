@@ -1,17 +1,18 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import {Odibee_Sans,Port_Lligat_Sans} from "next/font/google"
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const odibee_sans = Odibee_Sans({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: "--font-odibee"
+})
+
+const port_lligat_sans = Port_Lligat_Sans({
+  subsets: ['latin'],
+  weight: ["400"],
+  variable: "--font-port"
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${odibee_sans.variable} ${port_lligat_sans.variable} font-odibee`}
       >
         {children}
       </body>

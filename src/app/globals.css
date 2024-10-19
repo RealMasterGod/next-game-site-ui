@@ -2,26 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* * {
+    background: linear-gradient(138.76deg, #1E1A40 42.83%, #3f359800 51.16%);
+    color: #06050f
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+    background: linear-gradient(178.63deg, #14112E -0.25%, #302A64 3.51%, #14112E 6.78%, #14112E 14.86%, #292456 17.83%, #14112E 28.69%, #2C2758 31.82%, #14112E 43.37%, #272257 46.03%, #14112E 54.67%, #2E2866 57.13%, #191541 65.62%, #3D3581 73.09%, #120f2e 81.43%, #14112e00 89.25%);
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+} */
