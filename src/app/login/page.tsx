@@ -47,7 +47,7 @@ const LoginPage = () => {
         >
           Sign In
         </button>
-        <Link href="/register" className="text-white text-sm cursor-pointer underline">Don't have an account? Sign Up</Link>
+        <Link href="/register" className="text-white text-sm cursor-pointer underline">Don&apos;t have an account? Sign Up</Link>
       </div>
     </div>
   )
